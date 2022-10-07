@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SuperClock_LED.PrjPcb]
+   Generated File[SuperClock_LED.TXT]
+   Generated File[SuperClock_LED.LDP]
+   Generated File[SuperClock_LED.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:55:08 On 2022/9/8
