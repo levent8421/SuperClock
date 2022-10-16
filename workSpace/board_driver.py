@@ -94,3 +94,10 @@ LED1 = Pin(33)
 WAKEUP = Pin(14, Pin.IN)
 TH_SENSOR = Pin(4)
 
+D_MOSI = Pin(23)
+D_MISO = Pin(12)
+D_SCLK = Pin(18)
+D_DC = 21
+D_RES = 22
+D_CS = 16
+D_BKL = Pin(17, Pin.OUT)

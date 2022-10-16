@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5850a3f-e4e6-4a56-bfcc-f007cae35351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/icon_keqin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/ST7735.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/ascii.font" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/icon_keqin.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/test_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PcbDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PrjPcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PrjPcbStructure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_PWR.SchDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/CAMtastic1.Cam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/CAMtastic2.Cam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Design Rule Check - SuperClock_Core.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Design Rule Check - SuperClock_Core.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Status Report.Txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-RoundHoles.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-SlotHoles.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-macro.APR_LIB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.DRR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.EXTREP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GKO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GP1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GP2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GPB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.LDP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.REP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.RUL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.apr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_WIFI.SchDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core.SchDocPreview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core_PWR.SchDocPreview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core_WIFI.SchDocPreview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PcbDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PrjPcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PrjPcbStructure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_PWR.SchDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/CAMtastic1.Cam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/CAMtastic2.Cam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Design Rule Check - SuperClock_Core.drc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Design Rule Check - SuperClock_Core.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Status Report.Txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-RoundHoles.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-SlotHoles.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-macro.APR_LIB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.DRR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.EXTREP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GKO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GP1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GP2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GPB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.LDP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.REP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.RUL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.apr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_WIFI.SchDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_backup.PcbDoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/__Previews/SuperClock_Core.SchDocPreview" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/board_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/board_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12720">
+              <caret line="424" column="25" lean-forward="true" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workSpace/font.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="224" column="53" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workSpace/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HELLO</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/image_tools.py" />
+        <option value="$PROJECT_DIR$/font.py" />
+        <option value="$PROJECT_DIR$/workSpace/test_code.py" />
+        <option value="$PROJECT_DIR$/workSpace/font.py" />
+        <option value="$PROJECT_DIR$/workSpace/ST7735.py" />
+        <option value="$PROJECT_DIR$/workSpace/main.py" />
+        <option value="$PROJECT_DIR$/workSpace/board_driver.py" />
+        <option value="$PROJECT_DIR$/workSpace/bootstrap.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/SuperClock.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/MicroPython.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1329" />
+    <option name="y" value="67" />
+    <option name="width" value="1734" />
+    <option name="height" value="1407" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SuperClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperClock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuperClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuperClock" type="462c0819:PsiDirectoryNode" />
+              <item name="workSpace" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/font.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.micropython.configurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\hardware\SuperClock\workSpace" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\hardware\SuperClock\workSpace" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.font">
+    <configuration name="Flash font.py" type="MicroPythonConfigurationType" factoryName="MicroPython" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/font.py">
+      <module name="SuperClock" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flash image_tools.py" type="MicroPythonConfigurationType" factoryName="MicroPython" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/image_tools.py">
+      <module name="SuperClock" />
+      <method v="2" />
+    </configuration>
+    <configuration name="font" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SuperClock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\leven\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\hardware\SuperClock\workSpace\font.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_tools" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SuperClock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\leven\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="MicroPython.Flash image_tools.py" />
+      <item itemvalue="MicroPython.Flash font.py" />
+      <item itemvalue="Python.font" />
+      <item itemvalue="Python.image_tools" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="MicroPython.Flash font.py" />
+        <item itemvalue="MicroPython.Flash image_tools.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5850a3f-e4e6-4a56-bfcc-f007cae35351" name="Default Changelist" comment="" />
+      <created>1665841298092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665841298092</updated>
+      <workItem from="1665841300572" duration="1852000" />
+      <workItem from="1665899576013" duration="24683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26535000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.1246317" />
+      <window_info id="Structure" order="1" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.1246317" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2198748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32942098" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2793427" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299941" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SuperClock$image_tools.coverage" NAME="image_tools Coverage Results" MODIFIED="1665930027925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperClock$font.coverage" NAME="font Coverage Results" MODIFIED="1665934797667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/micropython/machine.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="392" column="40" lean-forward="true" selection-start-line="392" selection-start-column="40" selection-end-line="392" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/icon_keqin.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/ascii.font">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/font.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12720">
+          <caret line="424" column="25" lean-forward="true" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="224" column="53" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

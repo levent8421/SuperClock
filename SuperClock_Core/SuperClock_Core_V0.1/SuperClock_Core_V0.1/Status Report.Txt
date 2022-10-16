@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SuperClock_Core.PrjPcb]
+   Generated File[SuperClock_Core-RoundHoles.TXT]
+   Generated File[SuperClock_Core-SlotHoles.TXT]
+   Generated File[SuperClock_Core.LDP]
+   Generated File[SuperClock_Core.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 22:16:35 On 2022/9/22

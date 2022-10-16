@@ -148,9 +148,81 @@ class BeepTask(Process):
             self.seq_index += 1
 
 
+class TFTTask(Process):
+    NAME = 'tft_task'
+    BKL = 'tft_bkl'
+    TEXT_1 = 'tft_text1'
+    TEXT_2 = 'tft_text2'
+    TEXT_3 = 'tft_text3'
+    TEXT_4 = 'tft_text4'
+    MODE = 'tft_mode'
+    FLUSH = 'tft_flush'
+    MODE_IMG_L = 1
+    MODE_IMG_R = 2
+
+    def __init__(self):
+        self.bkl = None
+        self.tft = None
+        self.font = None
+        self.text1 = ''
+        self.text2 = ''
+        self.text3 = ''
+        self.text4 = ''
+        self.mode = ''
+
+    def setup(self):
+        from ST7735 import TFT
+        from machine import SPI
+        from board_driver import D_MOSI, D_MISO, D_SCLK, D_BKL, D_DC, D_RES, D_CS
+        self.bkl = D_BKL
+        spi = SPI(2, baudrate=20000000, polarity=0, phase=0, sck=D_SCLK, mosi=D_MOSI, miso=D_MISO)
+        self.tft = TFT(spi, D_DC, D_RES, D_CS, size=(106, 160))
+        self.tft.initr()
+        self.tft.fill(TFT.BLACK)
+        self.tft.invertcolor(True)
+        from font import ASCIIFont
+        self.font = ASCIIFont(file='ascii.font')
+
+    def _x(self, mode):
+        if mode == TFTTask.MODE_IMG_L:
+            return 80, 0
+        else:
+            return 0, 80
+
+    def loop(self, ctx):
+        s = TFTTask
+        flush = ctx.get_var(s.FLUSH, False)
+        if not flush:
+            return
+        ctx.set_var(s.FLUSH, False)
+        self.text1 = ctx.get_var(s.TEXT_1, '')
+        self.text2 = ctx.get_var(s.TEXT_2, '')
+        self.text3 = ctx.get_var(s.TEXT_3, '')
+        self.text4 = ctx.get_var(s.TEXT_4, '')
+        bkl = ctx.get_var(s.BKL, False)
+        if bkl:
+            self.bkl.on()
+        else:
+            self.bkl.off()
+            return
+        mode = ctx.get_var(s.MODE, s.MODE_IMG_L)
+        text_x, img_x = self._x(mode)
+        self.tft.fillrect((26, 0), (128, 160), 0xFFFF)
+        self.text(text_x, 90, self.text1)
+        with open('icon_keqin.data') as f:
+            img = f.read()
+        self.tft.image(26, img_x, 105, img_x + 79, img)
+
+    def text(self, x, y, s):
+        if not s:
+            return
+        img = self.font.str_img(s, (255, 255), (0x33, 0x9F))
+        self.tft.image(y, x, y + 15, x + 8 * len(s), img.getvalue())
+
+
 INACTIVE_RULE = DEFAULT_COLOR_RULE
 ACTIVE_RULE = FixedColorRule()
-ACTIVE_RULE.set_color((5, 0, 0), (0, 5, 0), (0, 0, 5))
+ACTIVE_RULE.set_color((1, 2, 3), (1, 2, 3), (1, 2, 3))
 
 
 class WakeupTask(Process):
@@ -170,11 +242,15 @@ class WakeupTask(Process):
         log.debug('Wakeup:[%s]' % value)
         if value:
             rule = ACTIVE_RULE
+            bkl = True
         else:
             rule = INACTIVE_RULE
+            bkl = False
         ctx.set_var(LEDCTLTask.COLOR_RULE, rule)
         ctx.set_var(LEDCTLTask.FLUSH, True)
         ctx.set_var(LEDCTLTask.FORCE_FLUSH, True)
+        ctx.set_var(TFTTask.BKL, bkl)
+        ctx.set_var(TFTTask.FLUSH, True)
 
 
 class Entry:
@@ -187,7 +263,10 @@ class Entry:
         self.skernel.exec(THSensorTask())
         self.skernel.exec(BeepTask())
         self.skernel.exec(WakeupTask())
+        self.skernel.exec(TFTTask())
 
+        self.ctx.set_var(TFTTask.FLUSH, True)
+        self.ctx.set_var(TFTTask.TEXT_1, 'CLOCK')
         self.tkernel.exec(TimeTask())
         self.btns = Buttons.get()
 
@@ -219,6 +298,11 @@ class Entry:
             mode += 1
             mode %= len(MODE_LIST)
             self.ctx.set_var(MODE, mode)
+            if mode == MODE_TH:
+                self.ctx.set_var(TFTTask.MODE, TFTTask.MODE_IMG_R)
+                self.ctx.set_var(TFTTask.TEXT_1, "THSensor")
+            else:
+                self.ctx.set_var(TFTTask.MODE, TFTTask.MODE_IMG_L)
+                self.ctx.set_var(TFTTask.TEXT_1, "CLOCK")
+            self.ctx.set_var(TFTTask.FLUSH, True)
             log.debug('SET_MODE:%s' % mode)
-
-

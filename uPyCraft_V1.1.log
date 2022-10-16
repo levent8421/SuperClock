@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\uPy1.0\uPyCraft\uPyCraft_src\mainComponents.py", line 597, in rightMenuOpenFile
+  File "uPyCraft.py", line 2224, in treeRightMenuOpenFile
+  File "uPyCraft.py", line 1897, in pcOpenFile
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9c in position 0: invalid start byte
+Traceback (most recent call last):
+  File "uPyCraft.py", line 970, in slotTreeDoubleClickOpenFile
+  File "uPyCraft.py", line 1897, in pcOpenFile
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9c in position 0: invalid start byte
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\uPy1.0\uPyCraft\uPyCraft_src\mainComponents.py", line 597, in rightMenuOpenFile
+  File "uPyCraft.py", line 2224, in treeRightMenuOpenFile
+  File "uPyCraft.py", line 1897, in pcOpenFile
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9c in position 0: invalid start byte
