@@ -1,6 +1,10 @@
+import gc
+
+import network
+import ntptime
 from dht import DHT11
 
-from beeos import TimerOSKernel, SuspendOSKernel, Process, OSKernel, Context
+from beeos import TimerOSKernel, SuspendOSKernel, Process, OSKernel, Context, state_pin
 from board_driver import TH_SENSOR, Buttons
 from led_display import DEFAULT_COLOR_RULE, FixedColorRule
 from log import Log
@@ -74,9 +78,6 @@ class THSensorTask(Process):
         self.dht = DHT11(TH_SENSOR)
         self.last_mes = 0
 
-    def setup(self):
-        pass
-
     def loop(self, ctx):
         mode = ctx.get_var(MODE)
         if mode != MODE_TH:
@@ -96,11 +97,9 @@ class THSensorTask(Process):
 
 
 class TimeTask(Process):
-    def __init__(self):
-        pass
-
     def loop(self, ctx):
         mode = ctx.get_var(MODE)
+        ticks = ctx.get_var(TimerOSKernel.TICKS, 0)
         if mode != MODE_TIME:
             return
         tt = RTCHelper.current_time_tuple6()
@@ -110,11 +109,12 @@ class TimeTask(Process):
         ctx.set_var(LEDCTLTask.STR_2, str(h))
         ctx.set_var(LEDCTLTask.FLUSH, True)
         seg_visible = ctx.get_var(LEDCTLTask.SEG_VISIBLE, False)
-        ctx.set_var(LEDCTLTask.SEG_VISIBLE, not seg_visible)
+        if ticks % 5 == 0:
+            ctx.set_var(LEDCTLTask.SEG_VISIBLE, not seg_visible)
 
 
-BEEP_SEQ_A = ((2500, 100), (2900, 100), (3000, 100))
-BEEP_SEQ_B = ((3000, 100), (2900, 100), (2500, 100))
+BEEP_SEQ_A = ((2500, 1), (2900, 1), (3000, 1))
+BEEP_SEQ_B = ((3000, 1), (2900, 1), (2500, 1))
 
 
 class BeepTask(Process):
@@ -130,22 +130,46 @@ class BeepTask(Process):
         self.next = 0
 
     def loop(self, ctx):
-        now = ctx.get_var(OSKernel.TICKS_MS, 0)
+        ticks = ctx.get_var(TimerOSKernel.TICKS, 0)
         flush = ctx.get_var(BeepTask.FLUSH, False)
         if flush:
             self.seq = ctx.get_var(BeepTask.SEQ, BEEP_SEQ_A)
             self.seq_index = 0
-            self.next = now
+            self.next = ticks
             ctx.set_var(BeepTask.FLUSH, False)
         if self.seq_index >= len(self.seq):
             self.beep.disable()
             return
         self.beep.enable()
-        if now >= self.next:
+        if ticks >= self.next:
             item = self.seq[self.seq_index]
-            self.next = now + item[1]
+            self.next = ticks + item[1]
             self.beep.freq(item[0])
             self.seq_index += 1
+
+
+class TFTBKLTask(Process):
+    NAME = "tft_bkl_task"
+    FLUSH = 'tft_bkl_flush'
+    BKL = 'tft_bkl'
+
+    def __init__(self):
+        from board_driver import D_BKL
+        self.bkl = D_BKL
+        self.timeout = 0
+
+    def loop(self, ctx):
+        now = ctx.get_var(OSKernel.TICKS_MS, 0)
+        if now >= self.timeout:
+            ctx.set_var(TFTBKLTask.BKL, False)
+            self.bkl.off()
+        flush = ctx.get_var(TFTBKLTask.FLUSH, False)
+        if not flush:
+            return
+        self.bkl.on()
+        ctx.set_var(TFTBKLTask.BKL, True)
+        ctx.set_var(TFTBKLTask.FLUSH, False)
+        self.timeout = now + 10000
 
 
 class TFTTask(Process):
@@ -161,20 +185,9 @@ class TFTTask(Process):
     MODE_IMG_R = 2
 
     def __init__(self):
-        self.bkl = None
-        self.tft = None
-        self.font = None
-        self.text1 = ''
-        self.text2 = ''
-        self.text3 = ''
-        self.text4 = ''
-        self.mode = ''
-
-    def setup(self):
         from ST7735 import TFT
         from machine import SPI
-        from board_driver import D_MOSI, D_MISO, D_SCLK, D_BKL, D_DC, D_RES, D_CS
-        self.bkl = D_BKL
+        from board_driver import D_MOSI, D_MISO, D_SCLK, D_DC, D_RES, D_CS
         spi = SPI(2, baudrate=20000000, polarity=0, phase=0, sck=D_SCLK, mosi=D_MOSI, miso=D_MISO)
         self.tft = TFT(spi, D_DC, D_RES, D_CS, size=(106, 160))
         self.tft.initr()
@@ -182,6 +195,11 @@ class TFTTask(Process):
         self.tft.invertcolor(True)
         from font import ASCIIFont
         self.font = ASCIIFont(file='ascii.font')
+        self.text1 = ''
+        self.text2 = ''
+        self.text3 = ''
+        self.text4 = ''
+        self.mode = ''
 
     def _x(self, mode):
         if mode == TFTTask.MODE_IMG_L:
@@ -190,28 +208,24 @@ class TFTTask(Process):
             return 0, 80
 
     def loop(self, ctx):
+        bkl = ctx.get_var(TFTBKLTask.BKL, False)
+        if not bkl:
+            return
         s = TFTTask
         flush = ctx.get_var(s.FLUSH, False)
         if not flush:
             return
         ctx.set_var(s.FLUSH, False)
-        self.text1 = ctx.get_var(s.TEXT_1, '')
-        self.text2 = ctx.get_var(s.TEXT_2, '')
-        self.text3 = ctx.get_var(s.TEXT_3, '')
-        self.text4 = ctx.get_var(s.TEXT_4, '')
-        bkl = ctx.get_var(s.BKL, False)
-        if bkl:
-            self.bkl.on()
-        else:
-            self.bkl.off()
-            return
         mode = ctx.get_var(s.MODE, s.MODE_IMG_L)
         text_x, img_x = self._x(mode)
         self.tft.fillrect((26, 0), (128, 160), 0xFFFF)
-        self.text(text_x, 90, self.text1)
         with open('icon_keqin.data') as f:
             img = f.read()
         self.tft.image(26, img_x, 105, img_x + 79, img)
+        self.text1 = ctx.get_var(s.TEXT_1, '')
+        self.text2 = ctx.get_var(s.TEXT_2, '')
+        self.text(text_x, 90, self.text1)
+        self.text(text_x, 74, self.text2)
 
     def text(self, x, y, s):
         if not s:
@@ -242,32 +256,98 @@ class WakeupTask(Process):
         log.debug('Wakeup:[%s]' % value)
         if value:
             rule = ACTIVE_RULE
-            bkl = True
+            ctx.set_var(TFTBKLTask.FLUSH, True)
+            ctx.set_var(TFTTask.FLUSH, True)
         else:
             rule = INACTIVE_RULE
-            bkl = False
         ctx.set_var(LEDCTLTask.COLOR_RULE, rule)
         ctx.set_var(LEDCTLTask.FLUSH, True)
         ctx.set_var(LEDCTLTask.FORCE_FLUSH, True)
-        ctx.set_var(TFTTask.BKL, bkl)
+
+
+class MEMTask(Process):
+    def __init__(self):
+        self.next = 0
+
+    def loop(self, ctx):
+        now = ctx.get_var(OSKernel.TICKS_MS, 0)
+        if self.next > now:
+            return
+        self.next = now + 10000
+        free = gc.mem_free()
+        alloc = gc.mem_alloc()
+        total = free + alloc
+        rate = alloc / total * 100
+        ctx.set_var(TFTTask.TEXT_2, 'MEM:%.1f%%' % rate)
         ctx.set_var(TFTTask.FLUSH, True)
+
+
+class NetworkTask(Process):
+    NAME = 'network_task'
+
+    def __init__(self, ssid, passwd):
+        self.ssid = ssid
+        self.passwd = passwd
+        self.wifi = network.WLAN(network.STA_IF)
+        self.connecting = False
+        self.connected = False
+        self.time_last_sync = 0
+
+    def setup(self):
+        self.wifi.active(True)
+        ntptime.host = 'ntp1.aliyun.com'
+        ntptime.NTP_DELTA = 3155644800
+
+    def connect(self):
+        self.wifi.connect(self.ssid, self.passwd)
+        self.connecting = True
+
+    def loop(self, ctx):
+        if self.wifi.isconnected():
+            state_pin.set_blink_interval(5)
+            self.connected = True
+            if self.connecting:
+                self.connecting = False
+                log.info('WIFI Ready!')
+        else:
+            self.connected = False
+            state_pin.set_blink_interval(1)
+            if not self.connecting:
+                self.connect()
+        self.sync_time(ctx)
+
+    def sync_time(self, ctx):
+        if not self.connected:
+            return
+        now = ctx.get_var(OSKernel.TICKS_MS)
+        if (now - self.time_last_sync) > (60 * 60 * 1000) or self.time_last_sync <= 0:
+            log.info('Sync time!')
+            try:
+                ntptime.settime()
+                self.time_last_sync = now
+            except Exception as e:
+                log.error('Err SYNC_TIME', e)
 
 
 class Entry:
     def __init__(self):
         self.ctx = Context()
         self.skernel = SuspendOSKernel(self.ctx)
-        self.tkernel = TimerOSKernel(self.ctx, frq=500)
+        self.tkernel = TimerOSKernel(self.ctx, frq=100)
 
         self.skernel.exec(LEDCTLTask())
         self.skernel.exec(THSensorTask())
-        self.skernel.exec(BeepTask())
         self.skernel.exec(WakeupTask())
+        self.skernel.exec(TFTBKLTask())
         self.skernel.exec(TFTTask())
 
         self.ctx.set_var(TFTTask.FLUSH, True)
         self.ctx.set_var(TFTTask.TEXT_1, 'CLOCK')
         self.tkernel.exec(TimeTask())
+        self.tkernel.exec(BeepTask())
+        self.tkernel.exec(MEMTask())
+        self.network_task = NetworkTask('Socket', 'qwerasdzx')
+        self.tkernel.exec(self.network_task)
         self.btns = Buttons.get()
 
     def start(self):
@@ -275,6 +355,7 @@ class Entry:
         self.ctx.set_var(MODE, MODE_TIME)
         self.skernel.setup_os()
         self.tkernel.setup_os()
+        self.network_task.connect()
         self.tkernel.run_forever()
         self.skernel.run_forever()
 

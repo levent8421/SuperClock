@@ -2,95 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5850a3f-e4e6-4a56-bfcc-f007cae35351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/icon_keqin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/ST7735.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/ascii.font" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/font.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/icon_keqin.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/test_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PcbDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PrjPcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core.PrjPcbStructure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_PWR.SchDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/CAMtastic1.Cam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/CAMtastic2.Cam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Design Rule Check - SuperClock_Core.drc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Design Rule Check - SuperClock_Core.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/Status Report.Txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-RoundHoles.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-SlotHoles.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core-macro.APR_LIB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.DRR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.EXTREP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GBS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GKO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GM6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GP1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GP2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GPB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.GTS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.LDP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.REP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.RUL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_V0.1/SuperClock_Core.apr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/SuperClock_Core_WIFI.SchDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core.SchDocPreview" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core_PWR.SchDocPreview" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core/__Previews/SuperClock_Core_WIFI.SchDocPreview" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PcbDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PrjPcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core.PrjPcbStructure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_PWR.SchDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/CAMtastic1.Cam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/CAMtastic2.Cam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Design Rule Check - SuperClock_Core.drc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Design Rule Check - SuperClock_Core.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/Status Report.Txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-RoundHoles.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-SlotHoles.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core-macro.APR_LIB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.DRR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.EXTREP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GBS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GKO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GM6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GP1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GP2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GPB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.GTS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.LDP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.REP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.RUL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_V0.2/SuperClock_Core.apr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_WIFI.SchDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/SuperClock_Core_backup.PcbDoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperClock_Core/SuperClock_Core_V.2/__Previews/SuperClock_Core.SchDocPreview" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/board_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/board_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/beeos.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/beeos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workSpace/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/bootstrap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,83 +13,124 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12720">
-              <caret line="424" column="25" lean-forward="true" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workSpace/font.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="224" column="53" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workSpace/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="12630">
+                  <caret line="424" column="25" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/image_tools.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="750">
+                  <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/font.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="990">
+                  <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="509">
+                  <caret line="322" column="86" selection-start-line="322" selection-start-column="86" selection-end-line="322" selection-end-column="86" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-91">
+                  <caret line="207" column="48" lean-forward="true" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/led_display.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2851">
+                  <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3060">
+                  <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="868">
+                  <caret line="217" column="8" lean-forward="true" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -195,6 +150,7 @@
         <option value="$PROJECT_DIR$/workSpace/ST7735.py" />
         <option value="$PROJECT_DIR$/workSpace/main.py" />
         <option value="$PROJECT_DIR$/workSpace/board_driver.py" />
+        <option value="$PROJECT_DIR$/workSpace/beeos.py" />
         <option value="$PROJECT_DIR$/workSpace/bootstrap.py" />
       </list>
     </option>
@@ -221,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,10 +194,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/font.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -344,19 +301,20 @@
       <option name="presentableId" value="Default" />
       <updated>1665841298092</updated>
       <workItem from="1665841300572" duration="1852000" />
-      <workItem from="1665899576013" duration="24683000" />
+      <workItem from="1665899576013" duration="25151000" />
+      <workItem from="1666270759860" duration="6804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26535000" />
+    <option name="totallyTimeSpent" value="33807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.1246317" />
-      <window_info id="Structure" order="1" sideWeight="0.5005429" side_tool="true" visible="true" weight="0.1246317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.12522098" />
+      <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" visible="true" weight="0.12522098" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
@@ -370,7 +328,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32942098" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2793427" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2793427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -403,33 +361,33 @@
     <entry file="file://$PROJECT_DIR$/workSpace/ascii.font">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workSpace/font.py">
+    <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="12630">
+          <caret line="424" column="25" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="750">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/font.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workSpace/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="270">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -437,39 +395,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
+    <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12720">
-          <caret line="424" column="25" lean-forward="true" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
+        <state relative-caret-position="3060">
           <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/led_display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2851">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="207" column="48" lean-forward="true" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="224" column="53" selection-start-line="224" selection-start-column="53" selection-end-line="224" selection-end-column="53" />
+        <state relative-caret-position="509">
+          <caret line="322" column="86" selection-start-line="322" selection-start-column="86" selection-end-line="322" selection-end-column="86" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

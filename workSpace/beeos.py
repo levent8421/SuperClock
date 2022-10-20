@@ -110,12 +110,15 @@ state_pin = StatePin()
 
 
 class TimerOSKernel(OSKernel):
+    TICKS = 'timer_ticks'
+
     def __init__(self, ctx, timer=0, frq=TIMER_FRQ):
         super().__init__(ctx)
         self._timer_no = timer
         self.timer = Timer(timer)
         self.frq = frq
         self._tasks = []
+        self.ticks = 0
 
     def setup_os(self):
         pass
@@ -127,6 +130,7 @@ class TimerOSKernel(OSKernel):
             try:
                 ticks = time.ticks_ms()
                 self.set_var(OSKernel.TICKS_MS, ticks)
+                self.set_var(TimerOSKernel.TICKS, self.ticks)
                 cmplt = task.loop(self)
             except Exception as e:
                 log.warn('Error on run task[%s]' % task, e)
@@ -137,6 +141,8 @@ class TimerOSKernel(OSKernel):
                     task.finish()
                 except Exception as e:
                     log.error('Task[%s] error on finish!' % task, e)
+        self.ticks += 1
+        self.ticks %= 0x7FFFFFFF
 
     def run_forever(self):
         self.timer.init(mode=Timer.PERIODIC, period=self.frq, callback=lambda t: self._loop())
@@ -255,4 +261,3 @@ class Ap:
         self.ap.active(False)
         state_pin.set_aws_on(False)
         state_pin.off()
-
