@@ -8,6 +8,8 @@ class ASCIIFont:
     def __init__(self, file):
         self.file = file
         self.codes = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"""
+        with open('ascii.font', 'rb') as f:
+            self.font_bytes = f.read()
 
     def _find_idx(self, c):
         for i in range(len(self.codes)):
@@ -20,9 +22,7 @@ class ASCIIFont:
 
     def find_font(self, c):
         idx = self._find_idx(c)
-        with open(self.file, 'rb') as f:
-            f.seek(idx * 16)
-            return f.read(16)
+        return self.font_bytes[idx * 16: idx * 16 + 16]
 
     def char_img(self, c, bc, fc, out):
         font = self.find_font(c)

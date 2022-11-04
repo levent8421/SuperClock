@@ -1,136 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c5850a3f-e4e6-4a56-bfcc-f007cae35351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bg_clock.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bg_th.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/bg_clock.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/bg_th.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workSpace/tft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SuperClock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SuperClock.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workSpace/beeos.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/beeos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/ST7735.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/ST7735.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workSpace/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workSpace/font.py" beforeDir="false" afterPath="$PROJECT_DIR$/workSpace/font.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/ST7735.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12630">
-                  <caret line="424" column="25" selection-start-line="424" selection-start-column="25" selection-end-line="424" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/image_tools.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="750">
-                  <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/font.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/workSpace/bootstrap.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="509">
-                  <caret line="322" column="86" selection-start-line="322" selection-start-column="86" selection-end-line="322" selection-end-column="86" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-91">
-                  <caret line="207" column="48" lean-forward="true" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/led_display.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2851">
-                  <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/test_code.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/workSpace/board_driver.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3060">
-                  <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/workSpace/beeos.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="868">
-                  <caret line="217" column="8" lean-forward="true" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -172,6 +65,7 @@
     <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
+  <component name="ProjectId" id="2Gc77kXhZFBz5dPOlumhsd8aoLH" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -196,57 +90,42 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/font.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.micropython.configurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\hardware\SuperClock" />
+      <recent name="D:\workspace\hardware\SuperClock\workSpace" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\hardware\SuperClock\workSpace" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\hardware\SuperClock\workSpace" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.font">
-    <configuration name="Flash font.py" type="MicroPythonConfigurationType" factoryName="MicroPython" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/font.py">
-      <module name="SuperClock" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Flash image_tools.py" type="MicroPythonConfigurationType" factoryName="MicroPython" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/image_tools.py">
-      <module name="SuperClock" />
-      <method v="2" />
-    </configuration>
-    <configuration name="font" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.image_tools">
+    <configuration name="font_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SuperClock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\leven\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\hardware\SuperClock\workSpace\font.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/font_tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,16 +134,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="image_tools" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="image_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SuperClock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\leven\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -277,19 +156,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="MicroPython.Flash image_tools.py" />
-      <item itemvalue="MicroPython.Flash font.py" />
-      <item itemvalue="Python.font" />
-      <item itemvalue="Python.image_tools" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="MicroPython.Flash font.py" />
-        <item itemvalue="MicroPython.Flash image_tools.py" />
+        <item itemvalue="Python.image_tools" />
+        <item itemvalue="Python.font_tools" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -303,6 +177,14 @@
       <workItem from="1665841300572" duration="1852000" />
       <workItem from="1665899576013" duration="25151000" />
       <workItem from="1666270759860" duration="6804000" />
+      <workItem from="1666675862679" duration="15261000" />
+      <workItem from="1666748406509" duration="6579000" />
+      <workItem from="1666857217247" duration="2988000" />
+      <workItem from="1666921535146" duration="620000" />
+      <workItem from="1666924720728" duration="349000" />
+      <workItem from="1667264741033" duration="2521000" />
+      <workItem from="1667269369854" duration="312000" />
+      <workItem from="1667525405540" duration="2772000" />
     </task>
     <servers />
   </component>
@@ -337,11 +219,24 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SuperClock$image_tools.coverage" NAME="image_tools Coverage Results" MODIFIED="1665930027925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SuperClock$font.coverage" NAME="font Coverage Results" MODIFIED="1665934797667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperClock$font_tools.coverage" NAME="font_tools Coverage Results" MODIFIED="1667525567870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SuperClock$image_tools.coverage" NAME="image_tools Coverage Results" MODIFIED="1667542519476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_PLUGINS_DIR$/intellij-micropython/typehints/micropython/machine.pyi">

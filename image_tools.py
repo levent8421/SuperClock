@@ -1,6 +1,6 @@
 from PIL import Image
 
-W = 80
+W = 160
 H = 80
 
 
@@ -9,7 +9,7 @@ def as16bit_color(c):
 
 
 def main():
-    image = Image.open('./icon_keqin.jpg')
+    image = Image.open('./bg_th.jpg')
     image = image.resize((W, H))
     res = []
     for x in range(W):
@@ -17,7 +17,7 @@ def main():
             c = image.getpixel((x, H - y - 1))
             c = as16bit_color(c)
             res.append(c.to_bytes(length=2, byteorder='big', signed=False))
-    with open('icon_keqin.data', 'wb') as f:
+    with open('workSpace/bg_th.data', 'wb') as f:
         for b in res:
             f.write(b)
 
